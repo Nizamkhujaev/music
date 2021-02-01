@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+
+    <div class="wrapper-top">
+      <img src="./images/santiz.jpg" alt="">
+    </div>
+
+    <audio id="audio-player"></audio>
+
+
+    <div class="player">
+
+      <h2 class="name">Santiz Album</h2>
+
+      <div class="buttons">
+        <img src="./images/next-btn.svg" width="45" height="45" alt="" class="prev-btn">
+        <img src="./images/play-button.svg" width="45" height="45" alt="" class="play-btn">
+        <img src="./images/pause.svg" width="45" height="45" class="pause-btn" alt="">
+        <img src="./images/next-btn.svg" width="45" height="45" alt="" class="next-btn">
+      </div>
+
+
+      <div class="rewind-wrapper">
+        <span class="current-time">--:--</span>
+        <input type="range" class="player-range" max="100" min="0">
+        <span class="full-time">3:35</span>
+      </div>
+
+      <div class="volume-wrapper">
+        <img src="./images/volume-up-interface-symbol-1.svg" width="20" height="20" class="volume-icon" alt="">
+
+        <input type="range" id="volume-input">
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.player-range {
+  width: 200px;
+}
+
+.rewind-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.player{
+  padding: 0px 20px 20px 20px;
+}
+
+.play-btn, .pause-btn{
+  margin-right: 20px;
+}
+
+.pause-btn{
+  display: none;
+}
+
+.wrapper-top img{
+  width: 300px;
+  object-fit: cover;
+  height: 340px;
+}
+
+.name{
+  text-align: center;
+}
+
+.wrapper-top{
+  margin-bottom: 20px;
+}
+
+.prev-btn{
+  transform: rotate(180deg);
+  margin-right: 20px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.wrapper{
+  max-width: 300px;
+  margin: 100px auto 0 auto;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.volume-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#volume-input{
+  width: 90px;
+}
